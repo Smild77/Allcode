@@ -1,4 +1,3 @@
-Markdown
 # 🚀 BullVPN Login Automation Test (Playwright)
 
 Automated testing project for the BullVPN login page ([https://www.bullvpn.com/login](https://www.bullvpn.com/login)). This project is built using **Playwright** with **TypeScript** and strictly follows the **Page Object Model (POM)** design pattern for better maintainability and readability.
