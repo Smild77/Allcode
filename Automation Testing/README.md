@@ -46,12 +46,16 @@ This suite includes a mix of Functional, UI/UX, Security, and Accessibility test
    ```bash
    git clone [https://github.com/Smild77](https://github.com/Smild77)
 
+```bash
 cd "Automation Testing"
 
+```bash
 npm install
 
+```bash
 npx playwright install
 
+```bash
 npx playwright test --ui
 
 ⚠️ Important Note Regarding reCAPTCHA (Production Environment)
