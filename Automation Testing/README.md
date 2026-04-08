@@ -44,23 +44,38 @@ This suite includes a mix of Functional, UI/UX, Security, and Accessibility test
 
 1. **Clone this repository:**
    ```bash
-   git clone [https://github.com/Smild77](https://github.com/Smild77)
+   git clone https://github.com/Smild77
+   ```
 
-```bash
-cd "Automation Testing"
+2. **Navigate to the project directory:**
+   ```bash
+   cd "Automation Testing"
+   ```
 
-```bash
-npm install
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-```bash
-npx playwright install
+4. **Install Playwright browsers:**
+   ```bash
+   npx playwright install
+   ```
+
+---
+
+## ▶️ How to Run the Tests
+To run the tests in **UI mode** (Recommended to view execution and timeline):
 
 ```bash
 npx playwright test --ui
+```
 
-⚠️ Important Note Regarding reCAPTCHA (Production Environment)
-Since this test executes against the live Production environment, the reCAPTCHA system will intercept automated interactions.
+---
 
-To demonstrate the full capability of the test suite, await page.pause(); commands are implemented in flows requiring login. This allows the QA to manually bypass the reCAPTCHA challenge before resuming the script.
+## ⚠️ Important Note Regarding reCAPTCHA (Production Environment)
+Since this test executes against the live Production environment, the **reCAPTCHA** system will intercept automated interactions. 
 
-(In a real-world CI/CD pipeline, this would typically run in a Staging environment with reCAPTCHA disabled or bypassed via Test Keys).
+To demonstrate the full capability of the test suite, `await page.pause();` commands are implemented in flows requiring login. This allows the QA to manually bypass the reCAPTCHA challenge before resuming the script. 
+
+*(In a real-world CI/CD pipeline, this would typically run in a Staging environment with reCAPTCHA disabled or bypassed via Test Keys).*
