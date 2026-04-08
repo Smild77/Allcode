@@ -23,9 +23,9 @@ Advanced & Security Testing:
 10. [Accessibility] Keyboard Navigation: Ensures the login flow can be fully completed using only the Tab and Enter keys.
 
 ## 🎥 Demo
-![BullVPN Test Demo](./images/Screenshot 2026-04-08 204340.png)
-![BullVPN Test Demo](./images/Screenshot 2026-04-08 204351.png)
-![BullVPN Test Demo](./images/Screenshot.png)
+![BullVPN Test Demo](./images/Screenshot1.png)
+![BullVPN Test Demo](./images/Screenshot2.png)
+![BullVPN Test Demo](./images/Screenshot3.png)
 🛠️ Tech Stack & Architecture
 Framework: Playwright
 
