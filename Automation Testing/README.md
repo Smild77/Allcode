@@ -45,23 +45,15 @@ This suite includes a mix of Functional, UI/UX, Security, and Accessibility test
 1. **Clone this repository:**
    ```bash
    git clone [https://github.com/Smild77](https://github.com/Smild77)
-Navigate to the project directory:
 
-Bash
 cd "Automation Testing"
-Install dependencies:
 
-Bash
 npm install
-Install Playwright browsers:
 
-Bash
 npx playwright install
-▶️ How to Run the Tests
-To run the tests in UI mode (Recommended to view execution and timeline):
 
-Bash
 npx playwright test --ui
+
 ⚠️ Important Note Regarding reCAPTCHA (Production Environment)
 Since this test executes against the live Production environment, the reCAPTCHA system will intercept automated interactions.
 
